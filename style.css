@@ -64,6 +64,9 @@ img{
 /* Navbar styling */
 header{
     background: var(--primary-color);
+    width: 100%;
+    z-index: 5;
+    background: var(--primary-color);
 }
 
 header .navbar{
@@ -94,4 +97,22 @@ header .navbar{
 .navbar .nav-menu .nav-link:hover{
     color: var(--primary-color);
     background: var(--secondary-color);
+}
+.hero-section{
+    min-height: 100vh;
+    background: var(--primary-color);
+}
+
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--white-color);
+    justify-content: space-between;
+}
+
+.hero-section .hero-details .title{
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family: "Miniver" , sans-serif;
 }
